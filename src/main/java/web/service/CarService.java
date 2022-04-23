@@ -18,7 +18,7 @@ public class CarService {
         return cars;
     }
 
-    public List<Car> showAllCars(Integer count) {
+    public List<Car> showCars(Integer count) {
         if (count == null) {
             count = getCars().size();
         }

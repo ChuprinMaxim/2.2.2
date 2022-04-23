@@ -16,7 +16,7 @@ public class CarController {
 
     @GetMapping
     public String showCars(@RequestParam(value = "count", required = false) Integer count, Model model) {
-        model.addAttribute("showCars", carService.showAllCars(count));
+        model.addAttribute("showCars", carService.showCars(count));
         return "cars";
     }
 
