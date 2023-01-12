@@ -14,6 +14,7 @@ public class CarService {
         cars.add(new Car("BMW", "320", "red"));
         cars.add(new Car("LADA", "Priora", "black"));
         cars.add(new Car("Mazda", "Cronos", "blue"));
+        cars.add(new Car("Mazda", "Cronos", "blue"));
         return cars;
     }
 
