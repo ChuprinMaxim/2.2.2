@@ -19,6 +19,7 @@ public class CarService {
     }
 
     public List<Car> showCars(Integer count) {
+//        Предназначен для отображения всех машин, в случае если count = null
         if (count == null) {
             count = getCars().size();
         }
