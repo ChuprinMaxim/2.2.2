@@ -45,4 +45,8 @@ public class Car {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    public void test() {
+        System.out.println("TEST");
+    }
 }
